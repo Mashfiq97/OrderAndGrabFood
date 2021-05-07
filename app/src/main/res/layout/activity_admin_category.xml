@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Add New Food Items"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/burger_01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/burger"
+            />
+
+        <ImageView
+            android:id="@+id/nugget01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/chickenfry"
+            />
+
+        <ImageView
+            android:id="@+id/hotdog01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/hotdog"
+            />
+
+        <ImageView
+            android:id="@+id/nugget02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:src="@drawable/nugget"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="55dp">
+
+        <ImageView
+            android:id="@+id/coffee_01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coffee"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/nugget03"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nugget"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/nugget04"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rezala"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/pizza_01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pizza"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="55dp">
+
+        <ImageView
+            android:id="@+id/pizza_02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pizza"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/kabab_01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kabab"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/ice_cream01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icecream"
+            android:padding="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/frnfry01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/frenchfries"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:text="Check New Orders"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/admin_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:text="Admin Logout"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false"/>
+
+
+
+
+</RelativeLayout>

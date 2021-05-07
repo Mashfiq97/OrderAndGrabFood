@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "110527409029",
+    "project_id": "foodorderingappv6",
+    "storage_bucket": "foodorderingappv6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110527409029:android:6694c9aa2cd6510ca472ec",
+        "android_client_info": {
+          "package_name": "com.example.foody_v6_11dec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110527409029-up35g0brp9m1q61lkf5fa9fq05dsqokm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foody_v6_11dec",
+            "certificate_hash": "d0adb4ff483d2e89d5c7aa6002d60c3a4c2ece36"
+          }
+        },
+        {
+          "client_id": "110527409029-f2i9qt3bsnd3qfq7vtg5kjhncaj5coe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1OAEyv7n9sg7A0p1_Z69cNGeRCPiG7wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110527409029-f2i9qt3bsnd3qfq7vtg5kjhncaj5coe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

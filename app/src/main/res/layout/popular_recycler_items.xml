@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="16dp"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/all_menu_image"
+        android:layout_width="194dp"
+        android:layout_height="145dp"
+        android:layout_weight="1"
+        android:src="@drawable/chickenbiriyani01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/all_menu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Chicken Biriyani"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/all_menu_image"
+        app:layout_constraintStart_toStartOf="@+id/all_menu_image"
+        app:layout_constraintTop_toBottomOf="@+id/all_menu_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

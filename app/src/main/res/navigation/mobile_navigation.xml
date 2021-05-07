@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!-- @+id/nav_home = @+id/nav_cart -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.foody_v6_11dec.ui.home.HomeFragment"
+        android:label="Home Screen"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- @+id/nav_gallery = @+id/nav_orders -->
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.foody_v6_11dec.ui.gallery.GalleryFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <!-- @+id/nav_slideshow = @+id/nav_categories-->
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.foody_v6_11dec.ui.slideshow.SlideshowFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.foody_v6_11dec.Fragment.logout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
